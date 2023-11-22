@@ -18,7 +18,7 @@ body {
   }
   
   header button {
-    background-color: #61dafb;
+    background-color: #43ff0a;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -32,7 +32,7 @@ body {
   }
   
   main button {
-    background-color: #61dafb;
+    background-color: #43ff0a;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -42,8 +42,10 @@ body {
   }
   
   form {
-    display: inline-block;
-    text-align: left;
+    display: flex;
+    text-align: fit;
+    margin-left: 20px;
+    margin: right 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -52,6 +54,8 @@ body {
   form label {
     display: block;
     margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   form input {
@@ -62,12 +66,13 @@ body {
   }
   
   form input[type="submit"] {
-    background-color: #61dafb;
+    background-color: #43ff0a;
     color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
+    margin-left: 15px;
   }
   
   div {
@@ -75,7 +80,7 @@ body {
   }
   
   div button {
-    background-color: #61dafb;
+    background-color: #43ff0a;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -84,6 +89,6 @@ body {
   }
   
   div p {
-    margin-top: 10px;
+    margin-top: 50px;
   }
   

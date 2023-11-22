@@ -31,29 +31,5 @@
     student.age = _age;
     student.gender = _gender;
 }
-    //    function getStudentDetails(uint ID) external view returns (string memory name, uint age, string memory gender) {
-    //     studentDetail storage student = Details[ID];
-    //     return(student.name, student.age, student.gender);
-    //  }
-    //  function updateDetailsName(uint ID, string memory _name) onlyOwner public {
-    //     studentDetail storage student = Details[ID];
-    //      student.name = _name;
-          
-    //  }
-    //  function updateDetailsAge(uint ID, uint _age) onlyOwner public {
-    //    studentDetail storage student = Details[ID];
-    //    student.age = _age;    
-    //  }
-     
-    //  function deleteDetails(uint ID) onlyOwner public {
-    //     delete Details[ID];
-    //  }
-    //  function updateStudentDetails(uint ID, string memory _name, uint _age, string memory _gender) public {
-    //     studentDetail storage student = Details[ID];
-    //     student.name = _name;
-    //     student.age = _age;
-    //     student.gender = _gender;
-    //  }
    
-    
  } 

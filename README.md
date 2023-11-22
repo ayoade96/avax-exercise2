@@ -1,42 +1,41 @@
 # Student Details Smart Contract
 
 ## Overview
-This Solidity smart contract manages and stores student details, providing a structured way to record information such as name, age, and gender for each student.
+This Solidity smart contract effectively manages and stores student details, providing a systematic approach to recording information such as name, age, and gender for each student.
 
 ## Features
-- **Student Detail Structure**: The contract defines a `studentDetail` structure, including name, age, and gender.
-- **Storage Mapping**: Student details are stored in a mapping, using the student ID as the key and details as the value.
-- **Owner Authorization**: The contract includes a modifier `onlyOwner`, ensuring that only the contract owner (admin) can execute specific functions.
+- **Student Detail Structure**: The contract introduces a `studentDetail` structure, encompassing essential details like name, age, and gender.
+- **Storage Mapping**: Student details find storage in a mapping structure, utilizing the student ID as the key and the corresponding details as the associated value.
+- **Owner Authorization**: Ensuring secure operations, the contract incorporates a `onlyOwner` modifier, permitting only the contract owner (admin) to execute designated functions.
 
 ## Smart Contract Functions
 
 ### `constructor()`
-- Initializes the contract, setting the deployer's address as the owner.
+- Initializes the contract, designating the deployer's address as the owner.
 
 ### `onlyOwner` Modifier
-- Ensures that only the contract owner can call specific functions.
+- Confirms that only the contract owner has the authority to invoke specific functions.
 
 ### `createStudentDetail(string memory _name, uint _age, string memory _gender) public`
-- Creates a new student detail entry with the provided name, age, and gender.
+- Generates a new student detail entry, capturing the supplied name, age, and gender.
 - Automatically assigns a unique student ID to each entry.
 
 ## Usage
 
 1. **Deployment**:
-   - Deploy the contract to the Ethereum blockchain, specifying version 0.8.19.
+   - Deploy the contract on the Ethereum blockchain, specifying version 0.8.19.
 
 2. **Ownership**:
-   - The deployer's address becomes the owner.
+   - The deployer's address becomes the rightful owner.
 
 3. **Adding Student Details**:
-   - Call `createStudentDetail` with the student's name, age, and gender.
+   - Invoke `createStudentDetail` with the student's name, age, and gender.
 
 4. **Accessing Details**:
-   - Use the `Details` mapping with the student ID to retrieve specific details.
+   - Utilize the `Details` mapping with the student ID to retrieve specific details.
 
 ## License
-This smart contract is released under the MIT License. See [LICENSE](LICENSE) for details.
+This smart contract operates under the MIT License. Refer to [LICENSE](LICENSE) for comprehensive details.
 
 ## SPDX-License-Identifier
 SPDX-License-Identifier: MIT
-
